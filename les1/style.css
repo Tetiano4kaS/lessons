@@ -1,0 +1,32 @@
+* {
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+img {
+    min-width: 200px;
+    max-width: 400px;
+}
+h1 {
+    text-align: center;
+    background: #fed521;
+    color: #ffffff;
+}
+h2 {
+    background: azure;
+    margin-top: 5px;
+}
+a {
+    color: darkcyan;
+}
+p {
+    background: #71d0ef;
+    color: #000000;
+}
+ul {
+    background: #cddfdf;
+    color: rgba(58,65,65,0.96);
+}
