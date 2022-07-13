@@ -10,14 +10,6 @@ body {
     flex-direction: column;
 }
 
-.icons {
-    display: flex;
-    justify-content: space-around;
-    width: 860px;
-    position: relative;
-    bottom: -45px;
-}
-
 .rondo {
     background: white;
     border: solid 1px black;
@@ -27,6 +19,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 20px;
 }
 
 .content {
