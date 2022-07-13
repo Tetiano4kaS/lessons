@@ -1,0 +1,62 @@
+.main-block {
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    background: lightgrey;
+    display: flex;
+    max-height: max-content;
+    width: 400px;
+    flex-direction: column;
+}
+
+.widgets {
+    background: lightsalmon;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bW {
+    background: azure;
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+}
+
+.bW1 {
+    background: aquamarine;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bW2 {
+    background: darkblue;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bW3 {
+    background: darkcyan;
+    width: 33.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    background: blueviolet;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,33 @@
+
+.card {
+    background: blue;
+    height: 650px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.colorWhite {
+    background: white;
+    width: 450px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.mainText > h2 {
+    margin: 0;
+}
+
+.mainText > p {
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    height: auto;
+    width: 250px;
+}
+
