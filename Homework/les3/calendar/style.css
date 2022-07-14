@@ -1,0 +1,30 @@
+td {
+    border: solid 1px black;
+    background: #fed521;
+}
+th{
+    background: #cddfdf;
+}
+
+table {
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+}
+
+tr > td:nth-child(1) {
+    background: #cddfdf;
+}
+
+tr > td:nth-child(7){
+    background: blue;
+}
+
+tr > th:first-child {
+    background: darkturquoise;
+}
+
+tr > th:last-child {
+    background: cadetblue;
+}
+
