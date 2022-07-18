@@ -1,0 +1,50 @@
+.wrap{
+    width: 100%;
+    height: 500px;
+    border: solid 2px black;
+}
+.br{
+    border-radius: 20px;
+}
+.yellow{
+    background: #fed521;
+}
+.blue{
+    background: cadetblue;
+}
+.magenta{
+    background: darkmagenta;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.a{
+    width:100%;
+    height: 100px;
+}
+.b{
+    width:75%;
+    height: 400px;
+}
+.c{
+    width: 25%;
+    height: 400px;
+}
+@media screen and (max-width: 992px){
+    .container{
+        height: 600px;
+        flex-direction: column;
+    }
+    .b{
+        width: 100%;
+    }
+    .c{
+        width: 100%;
+        height: 200px;
+    }
+    .wrap{
+        height:700px;
+    }
+}
