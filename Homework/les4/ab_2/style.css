@@ -3,6 +3,11 @@
     border: #71d0ef 3px solid;
 }
 
+.p {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
 .w-25 {
     width: 25%;
 }
